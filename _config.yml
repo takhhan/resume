@@ -9,7 +9,7 @@ version: 2
 name: 한승제
 title: 동양미래대학교 재학생
 email: takh1024@m365.dongyang.ac.kr
-website: www.github.com/sproogen/resume-theme
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -86,7 +86,7 @@ content:
         quote: >
           맞춤형 웨이트 트레이닝 프로그램 제안 프로그램
         description: | # this will include new lines to allow paragraphs
-          4인 팀 프로젝트 중 프론트엔드 맡음
+          4인 팀 프로젝트 중 프론트엔드
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
