@@ -78,6 +78,13 @@ content:
           
         description: |
           MySQL
+          
+      - layout: left
+        title: 자격사항
+        quote: >
+          
+        description: |
+          컴퓨터활용능력 2급, SQLD
 
   - title: Education
     layout: list
