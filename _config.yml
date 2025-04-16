@@ -54,38 +54,31 @@ about_content: | # this will include new lines to allow paragraphs
  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+    - title: Projects
+    layout: list
     content:
       - layout: top-middle
         title: FESTIVO
         link: https://github.com/takhhan/festivo
-        # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: sproogen/modern-resume-theme
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           국내 축제, 행사 정보 사이트
-        description: | # this will include new lines to allow paragraphs
+        description: |
           2인 팀 프로젝트
 
+      - layout: top-middle
         title: FITMATE
         link: https://github.com/ghdals/fitmate/tree/main
-        # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: sproogen/modern-resume-theme
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           맞춤형 웨이트 트레이닝 프로그램 제안 프로그램
-        description: | # this will include new lines to allow paragraphs
+        description: |
           4인 팀 프로젝트 중 프론트엔드
 
   - title: Experience # Title for the section
