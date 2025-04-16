@@ -15,46 +15,24 @@ email: takh1024@m365.dongyang.ac.kr
 darkmode: false
 
 # Social links
-#twitter_username: facespics
-#github_username:  takhhan
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+#github_username: takhhan
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: itsgoingto.be
+    icon: fas fa-globe
+    url: https://www.itsgoingto.be
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   hello world
   #Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
- # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-    - title: Projects
+  - title: Projects
     layout: list
     content:
       - layout: top-middle
@@ -63,7 +41,7 @@ content:
         additional_links:
           - title: sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/sproogen/modern-resume-theme
         quote: >
           국내 축제, 행사 정보 사이트
         description: |
@@ -75,49 +53,38 @@ content:
         additional_links:
           - title: sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/sproogen/modern-resume-theme
         quote: >
           맞춤형 웨이트 트레이닝 프로그램 제안 프로그램
         description: |
           4인 팀 프로젝트 중 프론트엔드
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Front End
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        # sub_title: Senior Network System Administrator
-        #caption: November 2017 - Present
         quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            React, HTML5/CSS
+          # Solving 21st century problems by digging holes and making game changing products like the *not a flamethrower*
+        description: |
+          React, HTML5/CSS
 
+      - layout: left
         title: Back End
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        # sub_title: Senior Network System Administrator
-        #caption: November 2017 - Present
         quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Spring boot, 실시간 채팅 서버, 데이터 크롤링/분석 시스템
+          # Solving 21st century problems by digging holes and making game changing products like the *not a flamethrower*
+        description: |
+          Spring boot, 실시간 채팅 서버, 데이터 크롤링/분석 시스템
 
+      - layout: left
         title: DB
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        # sub_title: Senior Network System Administrator
-        #caption: November 2017 - Present
         quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            MySQL
-            
+          # Solving 21st century problems by digging holes and making game changing products like the *not a flamethrower*
+        description: |
+          MySQL
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: 동양미래대학교
@@ -125,23 +92,11 @@ content:
         sub_title: 컴퓨터소프트웨어
         quote: >
           ?
-        description: | # this will include new lines to allow paragraphs
+        description: |
           아직 재학 중
-  /* - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees") */
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -151,4 +106,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
